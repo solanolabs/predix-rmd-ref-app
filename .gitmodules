@@ -36,5 +36,5 @@
 	branch = master
 [submodule "predix-rmd-analytics-ref-app"]
 	path = predix-rmd-analytics-ref-app
-	url = https://github.build.ge.com/adoption/predix-rmd-analytics-ref-app.git
+	url = https://github.com/predixdev/predix-rmd-analytics-ref-app.git
 	branch = master
