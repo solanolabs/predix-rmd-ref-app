@@ -225,6 +225,7 @@ else :
 
 if environment == 'SELECT':
     resolver = "10.128.99.10"
+    predixRedis = "redis-1"
 
 #Reference application client id
 rmdAppClientId = "app_client_id"
