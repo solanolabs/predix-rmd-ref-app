@@ -112,7 +112,7 @@ A service to help create sample data in Predix Asset.  Upload a spreadsheet of d
 ###[Data Simulator Service](https://github.com/PredixDev/fdh-router-service/tree/master/data-exchange-simulator)
   A Service to generate data when a physical machine is not available.  The Simulator sends data to the Data Ingestion Service when it is up and running.
 
-###[Data Ingestion Service] (deprecated, now using DataExchange)
+###[Data Ingestion Service] - deprecated, now using DataExchange
   A Service to accept Machine data or Simulated data, look up the Asset and Meter information in Predix Asset which provides enough info to post the data to the Timeseries database.  It also acts as a websocket server streaming live Machine sensor data to the UI.
 
 ###[RMD Orchestration Service](https://github.com/predixdev/rmd-orchestration/tree/master#rmd-orchestration)
