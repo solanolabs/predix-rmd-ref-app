@@ -132,10 +132,10 @@ https://www.predix.io/resources/tutorials/tutorial-details.html?tutorial_id=1708
 ##APIs
 The reference app defines some apis and message bodies that are needed to communicate between microservices.
 * [RMD Datasource](https://github.com/PredixDev/rmd-datasource)
-* [Data Ingestion](https://github.com/PredixDev/dataingestion-service)
-* [Run Analytic](https://github.com/PredixDev/ext-interface)
-* [Federated Datahandler](https://github.com/PredixDev/ext-interface)
-* [FieldChangedEvent](https://github.com/PredixDev/ext-interface)
+* [Run Analytic](https://github.com/PredixDev/ext-interface/blob/master/ext-model/src/main/resources/META-INF/schemas/predix/entity/runanalytic/runanalytic.xsd)
+* [Data Exchange - GetFieldData](https://github.com/PredixDev/ext-interface/blob/3279197f26802afd3c4eb5d181390313868caa9f/ext-model/src/main/resources/META-INF/schemas/predix/entity/getfielddata/getfielddata.xsd)
+* [Data Exchange - PutFieldData](https://github.com/PredixDev/ext-interface/blob/3279197f26802afd3c4eb5d181390313868caa9f/ext-model/src/main/resources/META-INF/schemas/predix/entity/putfielddata/putfielddata.xsd)
+* [FieldChangedEvent](https://github.com/PredixDev/ext-interface/blob/master/ext-model/src/main/resources/META-INF/schemas/predix/event/fieldchangedevent/fieldchangedevent.xsd)
 
 ##Microcomponents
 * [Predix Microcomponent Bootstraps](docs/microcomponents.md) - reusable libraries that can be used in any microservice
