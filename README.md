@@ -130,7 +130,7 @@ Using the tutorial below, you will learn about the RMD Reference App asset model
 https://www.predix.io/resources/tutorials/tutorial-details.html?tutorial_id=1708&tag=1709&journey=Reference%20App%20and%20Predix%20Asset
 
 ##APIs
-The reference app defines some apis and message bodies that are needed to communicate between microservices.
+The reference app defines some apis and message bodies that are needed to communicate between microservices.  They are defined by xsd but at runtime use JSON.
 * [RMD Datasource](https://github.com/PredixDev/rmd-datasource)
 * [Run Analytic](https://github.com/PredixDev/ext-interface/blob/master/ext-model/src/main/resources/META-INF/schemas/predix/entity/runanalytic/runanalytic.xsd)
 * [Data Exchange - GetFieldData](https://github.com/PredixDev/ext-interface/blob/3279197f26802afd3c4eb5d181390313868caa9f/ext-model/src/main/resources/META-INF/schemas/predix/entity/getfielddata/getfielddata.xsd)
