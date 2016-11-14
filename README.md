@@ -103,13 +103,16 @@ An AngularJS/Web Components based UI framework.  We used the [Predix Dashboard S
 ###[RMD Datasource Service](https://github.com/PredixDev/rmd-datasource/blob/master/README.md#welcome-to-the-rmd-datasource-microservice)
 A Mashup Service doing much of the logic for the Reference App.  It talks to Predix Asset and Timeseries databases and return results for display.
 
+###[FDH Datahandler Service - DataExchange](https://github.com/predixdev/fdh-router-service/tree/master#fdh-router-service)
+  The Federated Data Handler DataExchange framework retrieves data from any Datasource using a simple Get or Put API.  The Analytic framework leverages it to retrieve data and store results. DataExchange can help manage data Get/Put requests that are from distributed, near-data, relational db, public internet, in a file, via other Rest APIs and also at the Edge (on Machines outside the cloud).
+  
 ###[Data Seed Service](https://github.com/PredixDev/data-seed-service/blob/master/README.md#welcome-to-the-data-seed-service)
 A service to help create sample data in Predix Asset.  Upload a spreadsheet of data and it creates Groups, Classfications, Assets and Meters in Predix Asset. 
 
-###[Machine Data Simulator Service](https://github.com/predixdev/machinedata-simulator/tree/master#machinedata-simulator)
+###[Data Simulator Service](https://github.com/PredixDev/fdh-router-service/tree/master/data-exchange-simulator)
   A Service to generate data when a physical machine is not available.  The Simulator sends data to the Data Ingestion Service when it is up and running.
 
-###[Data Ingestion Service](https://github.com/predixdev/dataingestion-service/tree/master#predix-data-ingestion-service)
+###[Data Ingestion Service] (deprecated, now using DataExchange)
   A Service to accept Machine data or Simulated data, look up the Asset and Meter information in Predix Asset which provides enough info to post the data to the Timeseries database.  It also acts as a websocket server streaming live Machine sensor data to the UI.
 
 ###[RMD Orchestration Service](https://github.com/predixdev/rmd-orchestration/tree/master#rmd-orchestration)
@@ -118,8 +121,7 @@ A service to help create sample data in Predix Asset.  Upload a spreadsheet of d
 ###[RMD Analytic Service](https://github.com/predixdev/rmd-analytics/tree/master#analytics-for-predix-rmd-reference-app)
   An Analytic Microservice framework that receives Orchestration requests, resolves data and computes results.  The analytics can be in the cloud, streaming analytics, against near-data datasources (hadoop, etc), or also at the edge (on Machines outside the cloud).
 
-###[FDH Datahandler Service - DataExchange](https://github.com/predixdev/fdh-router-service/tree/master#fdh-router-service)
-  The Federated Data Handler DataExchange framework retrieves data from any Datasource using a simple Get or Put API.  The Analytic framework leverages it to retrieve data and store results. DataExchange can help manage data Get/Put requests that are from distributed, near-data, relational db, public internet, in a file, via other Rest APIs and also at the Edge (on Machines outside the cloud).
+
 
 ##Asset Model
 
